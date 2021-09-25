@@ -1,0 +1,51 @@
+What project did you end up implementing? (If nothing has changed since your original proposal, you can simply re-state/copy it here.)
+
+-Original Proposal:
+Proposal: I want to create an arduino weather station. The weather station will be able to give information on temperature, humidity, atmospheric pressure, level of dust in the air, uv light, and light intensity all of which will be displayed on an LCD display. If their is time, I will also implement a wifi feature that can allow me post data online.
+
+The only things I did not manage to do were dsiplay atmospheric pressure (because my barometer sensor burned when soldering) and get the device to work with ThingsSpeak in order to transmit data to the internet (because I ran out of room on my breadboard).
+
+
+
+
+How much of your project is working? (How close are you to finishing the project?)
+
+-My project is fully functional and everything works as intended.
+
+
+
+
+Indicate all steps you took to implement this project and debug it (Specifically, what was your debugging strategy, and where did you get stuck? How much time did you spend on each bug, and what resources did you use?)
+
+-I did not get stuck and amazingly I had no bugs at all when I wrote this code. Everything worked perfectly the first time for each sensor (lucky me).
+
+
+
+
+What, if any, extra hardware did you purchase?
+
+List of extra hardware purchased:
+-Breakout board (not used)
+-UV sensor
+-Barometer sensor (not used)
+-dust sensor
+-light sensor
+-temperature/humidity sensor
+-jumper wires
+
+
+
+
+How many person-hours did you spend (or did your team spend) implementing the project?
+
+-About 22 hours over the span of three days.
+
+
+
+
+Which code, if any, did you make use of that you did not write? Where did you find this code?
+
+-I learned how to use each sensor and the LCD screen with the minimum setup through Youtube and some websites and then combined the minimum setup code that I wrote for each sensor all together into one file and that's how I designed my program. I DID NOT copy any code from Youtube or these websites.
+
+I used this website to get the formula for computing the dust density:
+http://www.howmuchsnow.com/arduino/airquality/
